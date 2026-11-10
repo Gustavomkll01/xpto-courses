@@ -1,0 +1,20 @@
+:root { font-family: system-ui, sans-serif; color: #1f2933; background: #f5f7fa; }
+body { margin: 0; }
+.nav { display: flex; gap: 16px; align-items: center; padding: 12px 24px; background: #102a43; flex-wrap: wrap; }
+.nav strong { color: #fff; margin-right: 12px; }
+.nav a { color: #bcccdc; text-decoration: none; }
+.nav a.active, .nav a:hover { color: #fff; }
+main { max-width: 1000px; margin: 24px auto; padding: 0 16px; }
+.card { background: #fff; border: 1px solid #d9e2ec; border-radius: 8px; padding: 16px; margin-bottom: 16px; display: grid; gap: 12px; }
+.card h2 { margin: 0; font-size: 1.05rem; }
+label { display: grid; gap: 4px; font-size: .9rem; }
+input, select, textarea { padding: 8px; border: 1px solid #9fb3c8; border-radius: 6px; font: inherit; }
+button { padding: 8px 14px; border: 0; border-radius: 6px; background: #2680c2; color: #fff; cursor: pointer; font: inherit; }
+button.secondary { background: #627d98; }
+button.danger { background: #c53030; }
+.actions { display: flex; gap: 8px; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid #e4e7eb; font-size: .9rem; }
+th { background: #e4e7eb; }
+.error { color: #c53030; background: #fff5f5; padding: 8px 12px; border-radius: 6px; }
+.ok { color: #207a3c; }
